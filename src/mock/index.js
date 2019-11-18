@@ -10,6 +10,8 @@ let url = "http://localhost/login";
 
 Mock.mock(url,  /post|get/i,loginInfo)
 
+
+
 /* Mock.mock(url, "post", ()=> {
   // 最佳实践，
   debugger;
